@@ -2,7 +2,7 @@
 
 the implement of soft Q learning algorithm in pytorch
 
-**note that this is for discrete action space **
+**note that this is for discrete action space**
 
 all code is in one file and easily to follow
 
