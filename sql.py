@@ -41,7 +41,7 @@ class Memory(object):
 class SoftQNetwork(nn.Module):
 	def __init__(self):
 		super(SoftQNetwork, self).__init__()
-		self.alpha = 2
+		self.alpha = 4
 		self.fc1 = nn.Linear(4, 64)
 		self.relu = nn.ReLU()
 		self.fc2 = nn.Linear(64, 256)
@@ -135,7 +135,7 @@ if __name__ == "__main__":
 			state = next_state
 		writer.add_scalar('episode reward', episode_reward, global_step=epoch)
 		if epoch % 10 == 0:
-			torch.save(onlineQNetwork.state_dict(), 'ddqn-policy.para')
+			torch.save(onlineQNetwork.state_dict(), 'sql-policy.para')
 			print('Ep {}\tMoving average score: {:.2f}\t'.format(epoch, episode_reward))
 
 
