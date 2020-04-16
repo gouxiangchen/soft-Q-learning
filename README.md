@@ -1,4 +1,4 @@
-# SQL
+# SQL & SQIL
 
 the implement of soft Q learning algorithm in pytorch
 
