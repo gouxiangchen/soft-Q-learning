@@ -4,6 +4,8 @@ the implement of soft Q learning algorithm in pytorch
 
 **note that this is for discrete action space**
 
+**update SQIL: soft q imitation learning**
+
 all code is in one file and easily to follow
 
 ## requirment
@@ -16,5 +18,7 @@ in Cartpole-v0
 
 ## Ref
 [Reinforcement Learning with Deep Energy-Based Policies](https://arxiv.org/abs/1702.08165)
+
+[SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108v3)
 
 
