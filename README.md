@@ -21,4 +21,6 @@ in Cartpole-v0
 
 [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/abs/1905.11108v3)
 
+[SQL: Learn SQL in Detail with it's use and applications](https://www.scaler.com/topics/sql/)
+
 
